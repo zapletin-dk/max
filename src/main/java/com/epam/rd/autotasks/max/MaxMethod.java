@@ -2,6 +2,14 @@ package com.epam.rd.autotasks.max;
 
 public class MaxMethod {
     public static int max(int[] values) {
-        throw new UnsupportedOperationException();
+        int maxVa = values[0];
+        for (int var : values) {
+            if (var>maxVa){
+                maxVa = var;
+            }
+        }
+        return maxVa;
     }
 }
+
+
