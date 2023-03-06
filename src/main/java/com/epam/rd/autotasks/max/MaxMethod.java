@@ -2,13 +2,13 @@ package com.epam.rd.autotasks.max;
 
 public class MaxMethod {
     public static int max(int[] values) {
-        int maxVa = values[0];
-        for (int var : values) {
-            if (var>maxVa){
-                maxVa = var;
+        int maxValue = values[0];
+        for (int nextValue : values) {
+            if (nextValue > maxValue){
+                maxValue = nextValue;
             }
         }
-        return maxVa;
+        return maxValue;
     }
 }
 
